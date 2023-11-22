@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Projects</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="projects">
+            <a href="projects.html" class="active">Projects ↓</a>
+            <ul class="project-dropdown">
+                <li><a href="project1.html">↳Project1</a></li>
+                <br>
+                <br>
+                <li><a href="project2.html">↳Project2</a></li>
+                <br>
+                <br>
+                <li><a href="project3.html">↳Project3</a></li>
+            </ul>
+        </div>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="normal">
+        <h2>This page showcases the projects that I have worked on</h2>
+
+        <div class="center">
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <a href="project1.html"> 
+                        <p class="text">Project 1</p>
+                        <img src="./project_files/image1.jpg" alt="Image 1">
+                    </a>
+                </div>
+            
+                <div class="mySlides">
+                    <a href="project2.html">
+                        <p class="text">Project 2</p>
+                        <img src="./project_files/image2.jpg" alt="Image 2">
+                    </a>
+                </div>
+            
+                <div class="mySlides">
+                    <a href="project3.html">
+                        <p class="text">Project 3</p>
+                        <img src="./project_files/image3.jpg" alt="Image 3">
+                    </a>
+                </div>
+                <button class="next" onclick="plusSlides(1)">></button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8" lang="en">
+        <meta charset="UTF-8">
         <title>Project1</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -16,11 +16,7 @@
                 <a href="#">Other ↓</a>
                 <ul class="project-dropdown">
                     <li><a href="projects.html">↳Projects</a></li>
-                    <br>
-                    <br>
                     <li><a href="about.html">↳About</a></li>
-                    <br>
-                    <br>
                     <li><a href="contact.html">↳Contact</a></li>
                 </ul>
             </div>
@@ -28,24 +24,25 @@
 
         <div class="center">
             <div class="left">
-                <img src ="images/bitmap.png" width="60px" class="buttons" draggable="false">
+                <img src ="images/bitmap.png" class="bitmap" class="buttons" draggable="false" alt="pic">
 
                 <div class="centered">
                     <h2>Project 1</h2>
                     <audio controls autoplay>
                         <source src="./project_files/avatar.mpeg" type="audio/mpeg">
                     </audio>
-                    <img src="./project_files/zuko.png" class="projectStuff" width="300px">
+                    <img src="./project_files/zuko.png" class="projectStuff" id="zuko" alt="zuko">
                 </div>
                 
             </div>
 
             <div class="right">
-                <img src ="images/bitmap.png" width="60px" class="buttons" draggable="false">
+                <img src ="images/bitmap.png" class="bitmap" class="buttons" draggable="false" alt="pic">
 
                 <h2>About this project</h2>
                 <p>This project showcases one an instrumental I made</p>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

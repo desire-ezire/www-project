@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8" lang="en">
+        <meta charset="UTF-8">
         <title>Contact Us</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <div class="navbar">
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active" >Home</a>
             <div class="projects">
                 <a href="projects.html" >Projects ↓</a>
                 <ul class="project-dropdown">
                     <li><a href="project1.html">↳Project1</a></li>
-                    <br>
-                    <br>
                     <li><a href="project2.html">↳Project2</a></li>
-                    <br>
-                    <br>
                     <li><a href="project3.html">↳Project3</a></li>
                 </ul>
             </div>
@@ -25,7 +21,7 @@
             <a href="contact.html" class="active">Contact</a>
         </div>
         <div class="container">
-            <img src ="images/bitmap.png" width="60px" class="buttons" draggable="false">
+            <img src ="images/bitmap.png" class="bitmap" class="buttons" draggable="false" alt="pic">
             <h2>Contact Me</h2>
             <form id="contactForm">
                 <label for="name">Name:</label>
@@ -40,6 +36,6 @@
                 <button type="button" onclick="submitForm()">Submit</button>
             </form>
           </div>
-    </body>
     <script src="script.js"></script>
+    </body>
 </html>

@@ -127,7 +127,7 @@ h2{
 
 hr {
     color: #423b21;
-    background-color: #423b21;
+    background-color: #423b20;
     height: 3px;
     border: none;
 }
@@ -135,7 +135,8 @@ hr {
 table {
     border-collapse: collapse;
     margin-bottom: 20px;
-    background-color: white 70%;
+    background-color: white;
+    border: 1px;
 }
 
 th, td {
@@ -145,7 +146,6 @@ th, td {
 }
 
 th {
-    background-color: none;
     transition: 0.7s;
 }
 
@@ -185,6 +185,10 @@ td:hover {
     margin: 0 0 0px 100px;
     text-decoration: none;
     color: black;
+}
+
+.project-dropdown li {
+    margin-bottom: 25px;
 }
 
 .navbar {
@@ -254,4 +258,24 @@ td:hover {
 .slideshow-container{
     align-items: center;
     position: relative;
+}
+
+.bitmap{
+    width:60px;   
+}
+
+.mockup{
+    width:100%;
+}
+
+#desire{
+    width:200px;
+}
+
+#different{
+    text-align: center;
+}
+
+#zuko{
+    width:300px;
 }

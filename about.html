@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8" lang="en">
+        <meta charset="UTF-8">
         <title>About</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <div class="navbar">
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active" >Home</a>
             <div class="projects">
-            <a href="projects.html" >Projects ↓</a>
+                <a href="projects.html" >Projects ↓</a>
                 <ul class="project-dropdown">
                     <li><a href="project1.html">↳Project1</a></li>
-                    <br>
-                    <br>
                     <li><a href="project2.html">↳Project2</a></li>
-                    <br>
-                    <br>
                     <li><a href="project3.html">↳Project3</a></li>
                 </ul>
             </div>
@@ -25,13 +21,13 @@
             <a href="contact.html">Contact</a>
         </div>
         <div class="normal">
-            <img src ="images/bitmap.png" width="60px" class="buttons" draggable="false">
+            <img src ="images/bitmap.png" class="bitmap" class="buttons" draggable="false" alt="pic">
 
             <h2>About Me</h2>
             <p>Desire is a Student of baze University.</p>
-            <table border="1">
+            <table>
                 <tr>
-                    <th colspan="4"><h2>My weekly schedule</h2></th>
+                    <th colspan="4" id="different">My weekly schedule</th>
                 </tr>
                 <tr>
                     <th>Monday:</th>
@@ -71,6 +67,6 @@
             </table>
             <button type="button" onclick="printPage()">Print page</button>
         </div>
-    </body>
     <script src="script.js"></script>
+    </body>
 </html>
